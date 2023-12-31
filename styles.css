@@ -1,0 +1,65 @@
+:root {
+    --color-primary: #123333;
+    --color-secondary:#dddd12;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.container {
+    height: 80vh;
+    width: 80vw;
+    margin: 10vw;
+    border: 1px solid black;
+}
+
+.maps {
+    display: flex;
+}
+
+.map {
+    height: 200px;
+    width: 200px;
+    margin: 2rem;
+    position: relative;
+}
+
+.map:hover {
+    transform: scale(1.01);
+}
+
+.info {
+    padding: 3px 3px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 { margin: 0 0 5px; color: #777; }
